@@ -8,6 +8,7 @@ body {
 
 #collageprincipal {
     background-image: url("../img/collageprincipal.png");
+    height: 100px;
 }
 
 @font-face {
