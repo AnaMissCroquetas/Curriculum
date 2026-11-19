@@ -9,6 +9,7 @@ body {
 #collageprincipal {
     background-image: url("../img/collageprincipal.png");
     height: 100px;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -98,7 +99,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     border-left: -30px;
-    border-right: -100px;
+    /* border-right: -100px; */
     border-top: 20px;
     border-bottom: 20px; 
     margin: 20px;
