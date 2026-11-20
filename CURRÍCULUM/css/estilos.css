@@ -35,8 +35,8 @@ body {
     font-family: "Ana";
     font-weight: bolder;
     letter-spacing: 3px;
+    
 }
-
 #selectores {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 25px;
@@ -52,6 +52,9 @@ body {
 #selectores:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
 }
+a {
+    text-decoration: none;
+}
 
 #biogeneral {
     display: flex;
@@ -62,6 +65,7 @@ body {
     padding-top: 10px;
     padding-bottom: 1px;
     margin: 250px;
+    margin-bottom: 0px;
     margin-right: 20px;
     gap: 30px;
 }
@@ -76,9 +80,8 @@ body {
     border-radius: 20px;
 }
 
-.selectores2 {
-    /*  background-color: rgba(255, 255, 255, 0.329);*/
-    left: 50%;
+.selectores2 { 
+    left: 30%;
     gap: 15px;
     text-align: center;
     font-weight: bolder;
@@ -91,11 +94,13 @@ body {
 
 .resumencurriculumprofesional {
     display: block;
+    width: 35%;
     font-family: "Ana";
     font-weight: bolder;
     text-align: justify;
-    padding-right: 500px;
-    padding-left: 50px;
+    /* padding-right: 500px; */
+    padding-right: 40px;
+    padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-left: -30px;
@@ -103,14 +108,23 @@ body {
     border-top: 20px;
     border-bottom: 20px; 
     margin: 20px;
+    margin-top: 0px;
     margin-right: 120px;
-    margin-left: 120px;
+    margin-left: auto;
     gap: 30px;
     background-color: rgba(255, 255, 255, 0.329);
     letter-spacing: 2px;
     border-radius: 30px;
-    transform: translate(570px, -340px);
+    /* transform: translate(570px, -340px); */
+    transform: translate(9px, -110px) rotate(-8deg);
 }
 .resumencurriculumprofesional h3 {
     font-family: "ananegrita";
+}
+.volver {
+  position: fixed;
+  right: 200px;  /* distancia desde el borde derecho */
+  bottom: 40px;    /* distancia desde el borde superior */
+  width: 80px;  /* tamaño de la imagen */
+  height: auto;
 }
