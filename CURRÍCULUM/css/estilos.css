@@ -12,6 +12,12 @@ body {
     overflow-x: hidden;
 }
 
+#collageprincipal2 {
+    background-image: url("../img/collage.png");
+    height: 100px;
+    overflow-x: hidden;
+}
+
 @font-face {
     font-family: "Ana";
     src: url("../fonts/CaviarDreams.ttf") format("truetype");
@@ -80,6 +86,20 @@ a {
     border-radius: 20px;
 }
 
+.caja2 {
+width: 500px;
+    padding: 10px;
+    text-align: justify;
+    gap: 3px;
+    font-family: "Ana";
+    font-size: 23px; 
+    line-height: 1,5px;
+    padding-right: 80px;
+    margin-left: auto;
+    justify-content: flex-end;
+    transform: translate(-150px, 130px);
+}
+
 .selectores2 { 
     left: 30%;
     gap: 15px;
@@ -90,6 +110,11 @@ a {
 
 .selectores2 h3 {
     margin: 5px;
+}
+
+.modificado {
+margin-right: 80px; 
+
 }
 
 .resumencurriculumprofesional {
@@ -116,12 +141,23 @@ a {
     letter-spacing: 2px;
     border-radius: 30px;
     /* transform: translate(570px, -340px); */
-    transform: translate(9px, -110px) rotate(-8deg);
+    transform: translate(11px, -110px) rotate(-8deg);
 }
 .resumencurriculumprofesional h3 {
     font-family: "ananegrita";
 }
+.modificado {
+margin-top: 370px;
+
+}
 .volver {
+  position: fixed;
+  right: 200px;  /* distancia desde el borde derecho */
+  bottom: 40px;    /* distancia desde el borde superior */
+  width: 80px;  /* tamaño de la imagen */
+  height: auto;
+}
+.patras {
   position: fixed;
   right: 200px;  /* distancia desde el borde derecho */
   bottom: 40px;    /* distancia desde el borde superior */
