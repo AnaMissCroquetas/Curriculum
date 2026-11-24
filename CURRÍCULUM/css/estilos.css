@@ -97,7 +97,7 @@ width: 500px;
     padding-right: 80px;
     margin-left: auto;
     justify-content: flex-end;
-    transform: translate(-150px, 130px);
+    transform: translate(-160px, 110px);
 }
 
 .selectores2 { 
@@ -163,4 +163,13 @@ margin-top: 370px;
   bottom: 40px;    /* distancia desde el borde superior */
   width: 80px;  /* tamaño de la imagen */
   height: auto;
+  transform: translate(-90px, 10px);
+}
+.palante {
+position: fixed;
+  right: 200px;  /* distancia desde el borde derecho */
+  bottom: 40px;    /* distancia desde el borde superior */
+  width: 80px;  /* tamaño de la imagen */
+  height: auto;
+  transform: translate(-10px, 10px);
 }
